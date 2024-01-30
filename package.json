@@ -1,5 +1,5 @@
 {
-  "name": "a-frame-in-100-lines",
+  "name": "farcast-frame-100lines",
   "version": "0.1.1",
   "scripts": {
     "build": "rm -rf .next && next build",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "@zizzamia",
+  "author": "@robertcedwards",
   "license": "MIT",
   "dependencies": {
     "@coinbase/onchainkit": "0.2.1",
