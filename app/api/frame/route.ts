@@ -14,7 +14,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://0xHashbrown.xyz/linktree.png" />
     <meta property="fc:frame:button:1" content="${accountAddress}" />
-    <meta property="fc:frame:post_url" content="https://zizzamia.xyz/api/frame" />
+    <meta property="fc:frame:post_url" content="https://0xHashbrown.xyz" />
   </head></html>`);
 }
 

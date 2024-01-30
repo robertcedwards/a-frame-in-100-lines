@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 const frameMetadata = getFrameMetadata({
   buttons: ['Next image'],
-  image: 'https://0xHashbrown.xyz/'
+  image: 'https://0xHashbrown.xyz/',
   post_url: 'https://0xHashbrown.xyz',
 });
 
