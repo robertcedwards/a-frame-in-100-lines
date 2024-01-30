@@ -24,6 +24,15 @@ export default function Page() {
   return (
     <>
       <h1>0xhashbrown.xyz</h1>
+      <div className="linktree">
+            <div className="link">
+                <a href="https://twitter.com/" target="_blank" className="button">Twitter</a>
+            </div>
+            <div className="link">
+                <a href="https://facebook.com/" target="_blank" className="button">Facebook</a>
+            </div>
+            {/* Add more links as needed */}
+        </div>
     </>
   );
 }
