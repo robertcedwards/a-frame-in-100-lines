@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 
 const frameMetadata = getFrameMetadata({
   buttons: ['Next image'],
-  image: 'https://0xHashbrown.xyz/park-1.png',
-  post_url: 'https://0xHashbrown.xyz/api/frame',
+  image: 'https://0xHashbrown.xyz/'
+  post_url: 'https://0xHashbrown.xyz',
 });
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '0xHashbrown',
     description: 'Maker/Builder',
-    images: ['https://0xHashbrown.xyz/park-1.png'],
+    images: ['https://0xHashbrown.xyz/linktree.png'],
   },
   other: {
     ...frameMetadata,
@@ -26,10 +26,10 @@ export default function Page() {
       <h1>0xhashbrown.xyz</h1>
       <div className="linktree">
             <div className="link">
-                <a href="https://twitter.com/" target="_blank" className="button">Twitter</a>
+                <a href="https://warpcast.com/0xhashbrown" target="_blank" className="button"><img src="warpcast.png"/>Warpcast</a>
             </div>
             <div className="link">
-                <a href="https://facebook.com/" target="_blank" className="button">Facebook</a>
+                <a href="https://hey.com/u/0xhashbrown.lens" target="_blank" className="button">Facebook</a>
             </div>
             {/* Add more links as needed */}
         </div>
